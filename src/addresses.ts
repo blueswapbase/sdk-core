@@ -125,13 +125,13 @@ const AVALANCHE_ADDRESSES: ChainAddresses = {
 }
 
 const BASE_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x33128a8fC17869897dcE68Ed026d694621f6FDfD',
-  multicallAddress: '0x091e99cb1C49331a94dD62755D168E941AbD0693',
-  quoterAddress: '0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a',
-  v3MigratorAddress: '0x23cF10b1ee3AdfCA73B0eF17C07F7577e7ACd2d7',
-  nonfungiblePositionManagerAddress: '0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1',
-  tickLensAddress: '0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d',
-  swapRouter02Address: '0x2626664c2603336E57B271c5C0b26F421741e481'
+  v3CoreFactoryAddress: '0xBd6a46B9a3a78B90564CfeC571a28F1e48D5D15a',
+  multicallAddress: '0x4F9ca5F68ED286A091572357A8Db7CF731eFfe3B',
+  quoterAddress: '0xB3eA5dfcd1A682d947fB101678930241C0BD301B',
+  v3MigratorAddress: '0x8899b32E03666AfBC48b4c9dA9103097d558d483',
+  nonfungiblePositionManagerAddress: '0x2DbA23C15A293943B372B553913eab8CD99db9F8',
+  tickLensAddress: '0xF53efD77c4108Fdac2d59bEAE2f4f644a207A6D1',
+  swapRouter02Address: '0xca3A7384ab76A1d2dE290e9BAFa9bE693676cF50'
 }
 
 // Base Goerli v3 addresses
