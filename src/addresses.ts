@@ -13,7 +13,7 @@ type ChainAddresses = {
   v1MixedRouteQuoterAddress?: string
 }
 
-const DEFAULT_NETWORKS = [ChainId.MAINNET, ChainId.GOERLI, ChainId.SEPOLIA]
+const DEFAULT_NETWORKS = [ChainId.MAINNET, ChainId.BASE, ChainId.GOERLI, ChainId.SEPOLIA]
 
 function constructSameAddressMap(address: string, additionalNetworks: ChainId[] = []): AddressMap {
   return DEFAULT_NETWORKS.concat(additionalNetworks).reduce<AddressMap>((memo, chainId) => {
@@ -141,6 +141,8 @@ const BASE_ADDRESSES: ChainAddresses = {
   tickLensAddress: '0xF53efD77c4108Fdac2d59bEAE2f4f644a207A6D1',
   swapRouter02Address: '0xca3A7384ab76A1d2dE290e9BAFa9bE693676cF50'
 }
+
+
 
 // Base Goerli v3 addresses
 const BASE_GOERLI_ADDRESSES: ChainAddresses = {
